@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "declaration": true,
+    "strictNullChecks": true,
+    "target": "ES2015",
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "strict": true,
+    // "types": ["node"],
+    "rootDir": "src",
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],
+  "exclude": ["**/*.test.ts"]
+}

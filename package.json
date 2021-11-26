@@ -1,20 +1,32 @@
 {
-  "name": "@jostyposty/common-game",
+  "name": "@jostein-skaar/common-game",
   "version": "0.0.0",
   "description": "Snippets, code and types for JavaScript game development.",
-  "main": "index.js",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "jest",
+    "testw": "jest --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jostyposty/common-game.git"
+    "url": "git+https://github.com/jostein-skaar/common-game.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jostyposty/common-game/issues"
+    "url": "https://github.com/jostein-skaar/common-game/issues"
   },
-  "homepage": "https://github.com/jostyposty/common-game#readme"
+  "homepage": "https://github.com/jostein-skaar/common-game#readme",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
 }
