@@ -22,6 +22,5 @@ function changeToPixelRatio(map: any, pixelRatio: number) {
     tileset.margin *= pixelRatio;
     tileset.spacing *= pixelRatio;
     tileset.image = tileset.image.replace('@1', `@${pixelRatio}`);
-    tileset.name = tileset.name.replace('@1', `@${pixelRatio}`);
   }
 }
