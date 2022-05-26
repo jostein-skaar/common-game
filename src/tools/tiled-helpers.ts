@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 
 export function changePixelRatioInTiledJson(pixelRatio: number, srcPath: string, dstPath: string) {
-  console.log('handlePixelRatio for: ', pixelRatio);
+  console.log('changePixelRatioInTiledJson for: ', pixelRatio);
   let mapContent = fs.readFileSync(srcPath);
   let map = JSON.parse(mapContent.toString());
   changeToPixelRatio(map, pixelRatio);
