@@ -1,0 +1,650 @@
+{
+	"textures": [
+		{
+			"image": "presents@3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 918,
+				"h": 408
+			},
+			"scale": 0.75,
+			"frames": [
+				{
+					"filename": "presents-001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 3,
+						"y": 3,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 105,
+						"y": 3,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-003.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 207,
+						"y": 3,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 309,
+						"y": 3,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-005.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 411,
+						"y": 3,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-006.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 513,
+						"y": 3,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-007.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 615,
+						"y": 3,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-008.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 717,
+						"y": 3,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-009.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 819,
+						"y": 3,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-010.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 3,
+						"y": 105,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-011.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 105,
+						"y": 105,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-012.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 207,
+						"y": 105,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-013.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 309,
+						"y": 105,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-014.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 411,
+						"y": 105,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-015.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 513,
+						"y": 105,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-016.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 615,
+						"y": 105,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-017.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 717,
+						"y": 105,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-018.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 819,
+						"y": 105,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-019.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 3,
+						"y": 207,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-020.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 105,
+						"y": 207,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-021.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 207,
+						"y": 207,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-022.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 309,
+						"y": 207,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-023.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 411,
+						"y": 207,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-024.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 513,
+						"y": 207,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-025.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 615,
+						"y": 207,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-026.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 717,
+						"y": 207,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-027.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 819,
+						"y": 207,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-028.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 3,
+						"y": 309,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-029.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 105,
+						"y": 309,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "presents-030.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 207,
+						"y": 309,
+						"w": 96,
+						"h": 96
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:838e6382176d0369ad0552f4fd31dc78:d3ade0017915a8eac75f4226c6929764:5106497141913b043f8716c26ad50476$"
+	}
+}
