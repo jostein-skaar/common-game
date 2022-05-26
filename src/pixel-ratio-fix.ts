@@ -2,7 +2,8 @@ declare global {
   var pixelRatio: number;
 }
 
-let pixelRatio = window.devicePixelRatio;
+// Check fow window because this lib may be run in NodeJS as well.
+let pixelRatio = window ? window.devicePixelRatio : 1;
 if (pixelRatio !== 1 && pixelRatio !== 2 && pixelRatio !== 3) {
   pixelRatio = 1;
 }
