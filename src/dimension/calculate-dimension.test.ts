@@ -1,6 +1,6 @@
-import { calculateDimension } from './calculate-dimension';
-import { DimensionLimits } from './dimension-limits.model';
-import { ScaleMode } from './scale-mode.enum';
+import { calculateDimension } from './calculate-dimension.js';
+import { DimensionLimits } from './dimension-limits.model.js';
+import { ScaleMode } from './scale-mode.enum.js';
 
 /*
 Desktop Screen

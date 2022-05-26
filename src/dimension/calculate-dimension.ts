@@ -1,6 +1,6 @@
-import { DimensionLimits } from './dimension-limits.model';
-import { DimensionResult } from './dimension-result.model';
-import { ScaleMode } from './scale-mode.enum';
+import { DimensionLimits } from './dimension-limits.model.js';
+import { DimensionResult } from './dimension-result.model.js';
+import { ScaleMode } from './scale-mode.enum.js';
 
 export function calculateDimension(begrensninger: DimensionLimits, tilgjengeligBredde: number, tilgjengeligHoyde: number): DimensionResult {
   let bredde = tilgjengeligBredde;

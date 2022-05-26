@@ -4,7 +4,7 @@
   "description": "Snippets, code and types for JavaScript game development.",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
-  "module": "./dist/index.js",
+  "exports": "./dist/index.js",
   "type": "module",
   "files": [
     "dist"

@@ -1,4 +1,4 @@
-import { ScaleMode } from './scale-mode.enum';
+import { ScaleMode } from './scale-mode.enum.js';
 
 export interface DimensionResult {
   bredde: number;
