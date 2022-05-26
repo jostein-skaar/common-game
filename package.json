@@ -1,6 +1,6 @@
 {
   "name": "@jostein-skaar/common-game",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "Snippets, code and types for JavaScript game development.",
   "types": "./dist/index.d.ts",
   "exports": "./dist/index.js",
