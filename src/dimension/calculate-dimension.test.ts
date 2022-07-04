@@ -28,6 +28,9 @@ Tablet Screen
   // 768 - 20 (status bar)
   // height: 748,
   // width: 1024,
+
+
+  https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/Displays/Displays.html
 */
 
 describe('calculateDimension', () => {
