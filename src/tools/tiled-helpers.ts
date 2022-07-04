@@ -23,4 +23,23 @@ function changeToPixelRatio(map: any, pixelRatio: number) {
     tileset.spacing *= pixelRatio;
     tileset.image = tileset.image.replace('@1', `@${pixelRatio}`);
   }
+
+  for (const group of map.layers) {
+    for (const layer of group.layers) {
+      if (layer.type === 'objectgroup') {
+        for (const object of layer.objects) {
+          object.height *= pixelRatio;
+          object.width *= pixelRatio;
+          object.x *= pixelRatio;
+          object.y *= pixelRatio;
+          if (object.polyline !== undefined) {
+            for (const point of object.polyline) {
+              point.x *= pixelRatio;
+              point.y *= pixelRatio;
+            }
+          }
+        }
+      }
+    }
+  }
 }
