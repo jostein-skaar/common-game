@@ -1,0 +1,25 @@
+{
+    "activeFile": "tiles.tsx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "presents.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tiles.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "openFiles": [
+        "presents.tsx",
+        "tiles.tsx"
+    ],
+    "project": "common-game.tiled-project",
+    "recentFiles": [
+        "presents.tsx",
+        "tiles.tsx"
+    ]
+}

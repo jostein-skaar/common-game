@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.8" tiledversion="1.8.5" name="tiles" tilewidth="32" tileheight="32" spacing="2" margin="1" tilecount="54" columns="9">
+<tileset version="1.9" tiledversion="1.9.0" name="tiles" tilewidth="32" tileheight="32" spacing="2" margin="1" tilecount="54" columns="9">
  <image source="../assets/tiles@1.png" width="306" height="204"/>
  <tile id="0">
   <properties>
@@ -83,11 +83,13 @@
  </tile>
  <tile id="16">
   <properties>
+   <property name="ground" type="bool" value="true"/>
    <property name="ice" type="bool" value="true"/>
   </properties>
  </tile>
  <tile id="17">
   <properties>
+   <property name="ground" type="bool" value="true"/>
    <property name="ice" type="bool" value="true"/>
   </properties>
  </tile>
@@ -143,11 +145,13 @@
  </tile>
  <tile id="28">
   <properties>
+   <property name="ground" type="bool" value="true"/>
    <property name="water" type="bool" value="true"/>
   </properties>
  </tile>
  <tile id="29">
   <properties>
+   <property name="ground" type="bool" value="true"/>
    <property name="water" type="bool" value="true"/>
   </properties>
  </tile>
@@ -168,11 +172,13 @@
  </tile>
  <tile id="33">
   <properties>
+   <property name="ground" type="bool" value="true"/>
    <property name="ice" type="bool" value="true"/>
   </properties>
  </tile>
  <tile id="34">
   <properties>
+   <property name="ground" type="bool" value="true"/>
    <property name="ice" type="bool" value="true"/>
   </properties>
  </tile>
@@ -233,11 +239,13 @@
  </tile>
  <tile id="46">
   <properties>
+   <property name="ground" type="bool" value="true"/>
    <property name="lava" type="bool" value="true"/>
   </properties>
  </tile>
  <tile id="47">
   <properties>
+   <property name="ground" type="bool" value="true"/>
    <property name="lava" type="bool" value="true"/>
   </properties>
  </tile>
@@ -248,11 +256,13 @@
  </tile>
  <tile id="49">
   <properties>
+   <property name="ground" type="bool" value="true"/>
    <property name="water" type="bool" value="true"/>
   </properties>
  </tile>
  <tile id="50">
   <properties>
+   <property name="ground" type="bool" value="true"/>
    <property name="water" type="bool" value="true"/>
   </properties>
  </tile>
