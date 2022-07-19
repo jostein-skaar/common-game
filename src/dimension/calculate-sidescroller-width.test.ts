@@ -42,11 +42,15 @@ describe('calculateSidescrollerWidth', () => {
   const maxWidthMap = 100 * 32;
 
   const dimensjoner = [
+    [300, 300, height],
+    [1000, 1000, height],
+    [2000, 2000, height],
     // Portrait
+    [100, 288, 50],
     [375, 812, 266.00985221674875], // iPhone XS
     [768, 1024, 432], // iPad stående
     [360, 640, 324], // Mest populær mobil-størrelse
-    [375, 667, 323.83808095952025], // Nest mest populær mobil-størrelse
+    [375, 667, 323.8380809595202], // Nest mest populær mobil-størrelse
     [800, 1280, 360], // Nest mest populær tablet
     //[300, 2000, 86.39999999999999], // Halvsprø tilfeller
     //[10, 2000, 2.88], // Sprø tilfeller
@@ -54,9 +58,10 @@ describe('calculateSidescrollerWidth', () => {
     // [768, 954, 763.2, 954, ScaleMode.None], // Faktisk iPad stående i Safari (har jo statuslinje og navbar?)
 
     // Landscape
-    // [1920, 1080, 546.1333333333333], //
-    // [1800, 1000, 1024], //
-    // [568, 320, 768], //
+    [1200, 288, 512],
+    [1920, 1080, 1024], //
+    [1800, 1000, 1024], //
+    // [568, 320, 315.55555555555554], //
     // [1366, 768, 768], // Landscape. Mest populær desktop-størrelse
     // [1366, 700, 640, 800, ScaleMode.Fit], // Mammas Chromebook
     // [812, 375, 640, 800, ScaleMode.Fit], // iPhone XS liggende
