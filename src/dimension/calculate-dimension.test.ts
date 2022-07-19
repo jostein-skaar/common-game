@@ -1,3 +1,4 @@
+import { assert, describe, expect, it, test } from 'vitest';
 import { calculateDimension } from './calculate-dimension.js';
 import { DimensionLimits } from './dimension-limits.model.js';
 import { ScaleMode } from './scale-mode.enum.js';
