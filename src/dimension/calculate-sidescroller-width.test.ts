@@ -40,7 +40,6 @@ describe('calculateSidescrollerWidth', () => {
   const height = 576;
   const maxWidth = 1024;
   const maxHeight = 1024;
-  const maxWidthMap = 100 * 32;
 
   const dimensjoner = [
     [300, 300, height],
@@ -48,7 +47,7 @@ describe('calculateSidescrollerWidth', () => {
     [2000, 2000, height],
 
     // Portrait
-    [100, 288, 50],
+    [100, 288, 200],
     [375, 812, 266.00985221674875], // iPhone XS
     [768, 1024, 432], // iPad stående
     [360, 640, 324], // Mest populær mobil-størrelse
@@ -58,9 +57,10 @@ describe('calculateSidescrollerWidth', () => {
     [50, 2000, 28.125], // Sprø tilfeller
     [768, 1004, 440.60557768924303], // Faktisk iPad stående (har jo statuslinje)
     [768, 954, 463.6981132075472], // Faktisk iPad stående i Safari (har jo statuslinje og navbar?)
+    [300, 301, 574.0863787375415],
 
     // Landscape
-    [1200, 288, 512],
+    [1200, 288, 1024],
     [1920, 1080, 576], // PC
     [1800, 1000, 589.824],
     // [1366, 768, 768], // Landscape. Mest populær desktop-størrelse
@@ -68,7 +68,7 @@ describe('calculateSidescrollerWidth', () => {
     // [812, 375, 640, 800, ScaleMode.Fit], // iPhone XS liggende
     // [1024, 768, 640, 800, ScaleMode.Fit], // iPad liggende
     // [1280, 800, 640, 800, ScaleMode.None], // Nest mest populær tablet
-    [300, 301, 576],
+    [300, 299, 577.9264214046823],
     // [568, 320, 315.55555555555554], //
     // [2000, 300, 640, 800, ScaleMode.Fit], // Halvsprø tilfeller
 
@@ -81,7 +81,7 @@ describe('calculateSidescrollerWidth', () => {
   ];
 
   test.each(dimensjoner)('gitt %p og %p som argumenter, returnerer %p, %p og %p', (availableWidth, availableHeight, expectedWidth) => {
-    const actualWidth = calculateSidescrollerWidth(height, maxWidth, maxHeight, maxWidthMap, availableWidth, availableHeight);
+    const actualWidth = calculateSidescrollerWidth(height, maxWidth, maxHeight, availableWidth, availableHeight);
     expect(actualWidth).toEqual(expectedWidth);
   });
 });
