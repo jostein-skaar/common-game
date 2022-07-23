@@ -10,7 +10,8 @@ if (typeof window !== 'undefined') {
     pixelRatio = 1;
   }
 }
-globalThis.pixelRatio = pixelRatio;
+// globalThis.pixelRatio = pixelRatio;
+globalThis.pixelRatio = 3;
 
 export function adjustForPixelRatio(size: number): number {
   return size * globalThis.pixelRatio;
