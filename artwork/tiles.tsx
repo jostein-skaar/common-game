@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.9" tiledversion="1.9.0" name="tiles" tilewidth="32" tileheight="32" spacing="2" margin="1" tilecount="54" columns="9">
- <image source="../assets/tiles@1.png" width="306" height="204"/>
+<tileset version="1.9" tiledversion="1.9.0" name="tiles" tilewidth="24" tileheight="24" spacing="2" margin="1" tilecount="54" columns="9">
+ <image source="../assets/tiles@1.png" width="234" height="156"/>
  <tile id="0">
   <properties>
    <property name="ground" type="bool" value="true"/>
@@ -278,6 +278,7 @@
    <wangcolor name="Ladder" color="#00e9ff" tile="22" probability="1"/>
    <wangcolor name="Lava" color="#ff7700" tile="46" probability="1"/>
    <wangcolor name="Water" color="#ffff00" tile="28" probability="1"/>
+   <wangcolor name="empty" color="#ff00d8" tile="-1" probability="1"/>
    <wangtile tileid="0" wangid="0,0,1,0,0,0,1,0"/>
    <wangtile tileid="1" wangid="0,0,1,0,0,0,1,0"/>
    <wangtile tileid="2" wangid="0,0,1,0,0,0,1,0"/>
@@ -302,6 +303,8 @@
    <wangtile tileid="46" wangid="0,0,4,0,0,0,4,0"/>
    <wangtile tileid="47" wangid="0,0,4,0,0,0,4,0"/>
    <wangtile tileid="48" wangid="0,0,0,0,0,0,4,0"/>
+   <wangtile tileid="52" wangid="0,0,0,0,0,0,6,0"/>
+   <wangtile tileid="53" wangid="0,0,6,0,0,0,0,0"/>
   </wangset>
  </wangsets>
 </tileset>
